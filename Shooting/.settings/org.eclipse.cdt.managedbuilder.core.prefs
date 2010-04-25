@@ -1,0 +1,9 @@
+#Sun Sep 24 21:46:22 JST 2006
+eclipse.preferences.version=1
+environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.cygwin.exe.debug.1819542223=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<environment>\r\n<variable name\="CPATH" operation\="remove"/>\r\n<variable name\="C_INCLUDE_PATH" operation\="remove"/>\r\n</environment>\r\n
+environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.cygwin.exe.release.74587055=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<environment>\r\n<variable name\="CPATH" operation\="remove"/>\r\n<variable name\="C_INCLUDE_PATH" operation\="remove"/>\r\n</environment>\r\n
+environment/buildEnvironmentLibrary/cdt.managedbuild.config.gnu.cygwin.exe.debug.1819542223=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<environment>\r\n<variable name\="LIBRARY_PATH" operation\="remove"/>\r\n</environment>\r\n
+environment/buildEnvironmentLibrary/cdt.managedbuild.config.gnu.cygwin.exe.release.74587055=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<environment>\r\n<variable name\="LIBRARY_PATH" operation\="remove"/>\r\n</environment>\r\n
+environment/project=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<environment/>\r\n
+environment/project/cdt.managedbuild.config.gnu.cygwin.exe.debug.1819542223=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<environment/>\r\n
+environment/project/cdt.managedbuild.config.gnu.cygwin.exe.release.74587055=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<environment>\r\n<variable name\="path" operation\="prepend" value\="${windows_compiler}"/>\r\n</environment>\r\n

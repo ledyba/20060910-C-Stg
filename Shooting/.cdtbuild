@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?fileVersion 3.0.0?>
+
+<ManagedProjectBuildInfo>
+<project id="Shooting.cdt.managedbuild.target.gnu.cygwin.exe.593046556" name="実行可能 (Gnu on Windows)" projectType="cdt.managedbuild.target.gnu.cygwin.exe">
+<configuration artifactExtension="exe" artifactName="Shooting" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser" id="cdt.managedbuild.config.gnu.cygwin.exe.debug.1819542223" name="Debug" parent="cdt.managedbuild.config.gnu.cygwin.exe.debug">
+<toolChain id="cdt.managedbuild.toolchain.gnu.cygwin.exe.debug.1971994740" name="GCC ツール・チェイン" superClass="cdt.managedbuild.toolchain.gnu.cygwin.exe.debug">
+<tool command="gcc" id="cdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.debug.896031825" name="GCC C コンパイラー" superClass="cdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.debug">
+<option id="gnu.c.compiler.option.misc.other.255785276" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 `sdl-config --cflags`" valueType="string"/>
+<option id="gnu.c.compiler.option.include.paths.543180240" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+<listOptionValue builtIn="false" value="&quot;D:\prog\C\lib\pxtone_include&quot;"/>
+</option>
+</tool>
+<tool command="g++" id="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.debug.265260626" name="GCC C++ コンパイラー" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.debug"/>
+<tool command="gcc" id="cdt.managedbuild.tool.gnu.c.linker.cygwin.exe.debug.454830920" name="GCC C リンカー" superClass="cdt.managedbuild.tool.gnu.c.linker.cygwin.exe.debug">
+<option id="gnu.c.link.option.ldflags.361577014" superClass="gnu.c.link.option.ldflags" value="-mwindows" valueType="string"/>
+<option id="gnu.c.link.option.libs.363158288" superClass="gnu.c.link.option.libs" valueType="libs">
+<listOptionValue builtIn="false" value="mingw32"/>
+<listOptionValue builtIn="false" value="SDLmain"/>
+<listOptionValue builtIn="false" value="SDL"/>
+<listOptionValue builtIn="false" value="SDL_image"/>
+<listOptionValue builtIn="false" value="pxtone"/>
+<listOptionValue builtIn="false" value="opengl32"/>
+</option>
+<option id="gnu.c.link.option.paths.1127676577" superClass="gnu.c.link.option.paths" valueType="stringList">
+<listOptionValue builtIn="false" value="&quot;D:\prog\C\lib\pxtone_include&quot;"/>
+<listOptionValue builtIn="false" value="&quot;F:\path\MSYS\local\lib&quot;"/>
+</option>
+<option id="gnu.c.link.option.strip.779184180" superClass="gnu.c.link.option.strip" value="false" valueType="boolean"/>
+<option id="gnu.c.link.option.nostart.674316000" superClass="gnu.c.link.option.nostart" value="false" valueType="boolean"/>
+</tool>
+<tool command="g++" id="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.debug.1024263686" name="GCC C++ リンカー" superClass="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.debug"/>
+<tool command="as" id="cdt.managedbuild.tool.gnu.assembler.cygwin.exe.debug.188199412" name="GCC アセンブラー" superClass="cdt.managedbuild.tool.gnu.assembler.cygwin.exe.debug"/>
+<macros/>
+</toolChain>
+</configuration>
+<configuration artifactExtension="exe" artifactName="Shooting" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser" id="cdt.managedbuild.config.gnu.cygwin.exe.release.74587055" name="Release" parent="cdt.managedbuild.config.gnu.cygwin.exe.release">
+<toolChain id="cdt.managedbuild.toolchain.gnu.cygwin.exe.release.1296938187" name="GCC ツール・チェイン" superClass="cdt.managedbuild.toolchain.gnu.cygwin.exe.release">
+<builder command="make" id="cdt.managedbuild.target.gnu.builder.cygwin.exe.release.816114159" name="Gnu Make.Release" superClass="cdt.managedbuild.target.gnu.builder.cygwin.exe.release"/>
+<tool command="gcc" id="cdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.release.525990660" name="GCC C コンパイラー" superClass="cdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.release">
+<option id="gnu.c.compiler.option.misc.other.397710020" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 `sdl-config --cflags`" valueType="string"/>
+<option id="gnu.c.compiler.option.include.paths.1983379464" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+<listOptionValue builtIn="false" value="&quot;D:\prog\C\lib\pxtone_include&quot;"/>
+<listOptionValue builtIn="false" value="&quot;D:\prog\C\PGL\include&quot;"/>
+<listOptionValue builtIn="false" value="&quot;F:\path\MSYS\include\SDL&quot;"/>
+<listOptionValue builtIn="false" value="&quot;F:\path\MinGW\include&quot;"/>
+</option>
+<option id="gnu.c.compiler.option.warnings.pedantic.1630059515" superClass="gnu.c.compiler.option.warnings.pedantic" value="false" valueType="boolean"/>
+<option id="gnu.c.compiler.option.warnings.allwarn.1960732485" superClass="gnu.c.compiler.option.warnings.allwarn" value="true" valueType="boolean"/>
+</tool>
+<tool command="g++" id="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.release.1961643977" name="GCC C++ コンパイラー" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.release"/>
+<tool command="gcc" id="cdt.managedbuild.tool.gnu.c.linker.cygwin.exe.release.401634531" name="GCC C リンカー" superClass="cdt.managedbuild.tool.gnu.c.linker.cygwin.exe.release">
+<option id="gnu.c.link.option.ldflags.363491575" superClass="gnu.c.link.option.ldflags" value="-mwindows" valueType="string"/>
+<option id="gnu.c.link.option.libs.819460500" superClass="gnu.c.link.option.libs" valueType="libs">
+<listOptionValue builtIn="false" value="mingw32"/>
+<listOptionValue builtIn="false" value="PGL"/>
+<listOptionValue builtIn="false" value="SDLmain"/>
+<listOptionValue builtIn="false" value="SDL"/>
+<listOptionValue builtIn="false" value="SDL_image"/>
+<listOptionValue builtIn="false" value="pxtone"/>
+<listOptionValue builtIn="false" value="opengl32"/>
+</option>
+<option id="gnu.c.link.option.paths.319852186" superClass="gnu.c.link.option.paths" valueType="stringList">
+<listOptionValue builtIn="false" value="&quot;F:\path\MSYS\lib&quot;"/>
+<listOptionValue builtIn="false" value="&quot;D:\prog\C\PGL\Release&quot;"/>
+<listOptionValue builtIn="false" value="&quot;D:\prog\C\lib\pxtone_include&quot;"/>
+</option>
+<option id="gnu.c.link.option.strip.1059673201" superClass="gnu.c.link.option.strip" value="true" valueType="boolean"/>
+<option id="gnu.c.link.option.other.172627888" superClass="gnu.c.link.option.other"/>
+<option id="gnu.c.link.option.nostart.1122251250" superClass="gnu.c.link.option.nostart" value="false" valueType="boolean"/>
+<option id="gnu.c.link.option.nodeflibs.1074054267" superClass="gnu.c.link.option.nodeflibs" value="false" valueType="boolean"/>
+<option id="gnu.c.link.option.nostdlibs.560874262" superClass="gnu.c.link.option.nostdlibs" value="false" valueType="boolean"/>
+</tool>
+<tool command="g++" id="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.release.1041787249" name="GCC C++ リンカー" superClass="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.release"/>
+<tool command="as" id="cdt.managedbuild.tool.gnu.assembler.cygwin.exe.release.1480624295" name="GCC アセンブラー" superClass="cdt.managedbuild.tool.gnu.assembler.cygwin.exe.release"/>
+<macros/>
+</toolChain>
+</configuration>
+<macros/>
+</project>
+</ManagedProjectBuildInfo>

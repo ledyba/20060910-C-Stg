@@ -1,0 +1,25 @@
+ZIP.EXE 0.01 [ZIP32J.DLL 00037]
+[Result 0x00000000]
+	zip info: local extra (124 bytes) != central extra (17 bytes): pack/common.arc
+	zip info: local extra (124 bytes) != central extra (17 bytes): pack/libpng13.dll
+	zip info: local extra (124 bytes) != central extra (17 bytes): pack/load.arc
+	zip info: local extra (124 bytes) != central extra (17 bytes): pack/menu.arc
+	zip info: local extra (124 bytes) != central extra (17 bytes): pack/pxtone.dll
+	zip info: local extra (124 bytes) != central extra (17 bytes): pack/SDL.dll
+	zip info: local extra (124 bytes) != central extra (17 bytes): pack/SDL_image.dll
+	zip info: local extra (124 bytes) != central extra (17 bytes): pack/Shooting.exe
+	zip info: local extra (124 bytes) != central extra (17 bytes): pack/zlib1.dll
+	zip info: local extra (124 bytes) != central extra (17 bytes): pack/config.sav
+	zip info: local extra (122 bytes) != central extra (17 bytes): pack/stdout.txt
+	zip info: local extra (122 bytes) != central extra (17 bytes): pack/stderr.txt
+updating: pack/common.arc (188 bytes security).	(in=14166) (out=14166) (stored 0%)
+updating: pack/load.arc (188 bytes security).	(in=11789) (out=11789) (stored 0%)
+updating: pack/menu.arc (188 bytes security).	(in=13434) (out=13434) (stored 0%)
+updating: pack/pxtone.dll (188 bytes security).	(in=75264) (out=73288) (deflated 3%)
+updating: pack/SDL.dll (188 bytes security)..	(in=118784) (out=113933) (deflated 4%)
+updating: pack/SDL_image.dll (188 bytes security).	(in=86016) (out=84412) (deflated 2%)
+updating: pack/Shooting.exe (188 bytes security)	(in=18944) (out=18097) (deflated 4%)
+updating: pack/config.sav (188 bytes security)	(in=8) (out=5) (deflated 38%)
+updating: pack/stdout.txt (188 bytes security)	(in=0) (out=0) (stored 0%)
+updating: pack/stderr.txt (188 bytes security)	(in=0) (out=0) (stored 0%)
+total bytes=475109, compressed=454275 -> 4% savings
